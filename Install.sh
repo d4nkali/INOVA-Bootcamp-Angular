@@ -6,3 +6,8 @@ npm i @angular/cli@16.1.0
 # npx -p @angular/cli
 # npm @angular/cli@16.1.0
 # npm i
+
+# Instalar Angular Material
+
+ng add @angular/material
+ng generate module shared/material
