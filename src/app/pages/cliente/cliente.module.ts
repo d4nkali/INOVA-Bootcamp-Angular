@@ -23,9 +23,9 @@ import { CadastroClienteComponent } from './cadastro-cliente/cadastro-cliente.co
     MaterialModule,
     NgxMaskDirective,
     NgxMaskPipe
-   ],
+  ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [provideNgxMask()],
-  exports: []
+  exports: [ CadastroClienteComponent ]
 })
 export class ClienteModule { }

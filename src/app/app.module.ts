@@ -7,6 +7,7 @@ import { MaterialModule } from "./shared/material/material.module";
 import { AppRoutingModule } from "./app-routing.module";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NgxMaskDirective, NgxMaskPipe, provideNgxMask } from "ngx-mask";
+import { ClienteModule } from "./pages/cliente/cliente.module";
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { NgxMaskDirective, NgxMaskPipe, provideNgxMask } from "ngx-mask";
     HttpClientModule,
     MaterialModule,
     NgxMaskDirective,
-    NgxMaskPipe
+    NgxMaskPipe,
+    ClienteModule
   ],
   providers: [provideNgxMask()],
 
