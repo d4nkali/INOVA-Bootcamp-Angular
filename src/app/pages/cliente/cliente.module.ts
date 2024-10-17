@@ -7,11 +7,13 @@ import { MaterialModule } from 'src/app/shared/material/material.module';
 import { HttpClientModule } from '@angular/common/http';
 import { NgxMaskDirective, NgxMaskPipe, provideNgxMask } from 'ngx-mask';
 import { CadastroClienteComponent } from './cadastro-cliente/cadastro-cliente.component';
+import { ListagemClienteComponent } from './listagem-cliente/listagem-cliente.component';
 
 
 @NgModule({
   declarations: [
-    CadastroClienteComponent
+    CadastroClienteComponent,
+    ListagemClienteComponent
   ],
   imports: [
     CommonModule,

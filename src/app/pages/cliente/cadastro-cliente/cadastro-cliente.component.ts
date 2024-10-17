@@ -41,7 +41,7 @@ export class CadastroClienteComponent implements OnInit{
           title: 'Sucesso',
           text: 'Cliente cadastrado com sucesso!',
           showConfirmButton: false,
-          timer: 1500
+          timer: 3000
         })
         this.router.navigate(['/cliente'])
       },
