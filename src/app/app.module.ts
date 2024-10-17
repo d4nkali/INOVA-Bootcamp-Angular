@@ -6,21 +6,25 @@ import { HttpClientModule } from "@angular/common/http";
 import { MaterialModule } from "./shared/material/material.module";
 import { AppRoutingModule } from "./app-routing.module";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { NgxMaskDirective, NgxMaskPipe, provideNgxMask } from "ngx-mask";
 
 @NgModule({
   declarations: [
   AppComponent
   ],
   imports: [
-  BrowserModule,
-  AppRoutingModule,
-  BrowserAnimationsModule,
-  FormsModule,
-  ReactiveFormsModule,
-  HttpClientModule,
-  MaterialModule
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    MaterialModule,
+    NgxMaskDirective,
+    NgxMaskPipe
   ],
-  providers: [],
+  providers: [provideNgxMask()],
+
   bootstrap: [AppComponent]
   })
   export class AppModule { }
