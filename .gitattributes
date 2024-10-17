@@ -7,3 +7,6 @@
 *.sh eol=crlf
 package.json eol=crlf
 package-lock eol=crlf
+*.html eol=crlf
+*.css eol=crlf
+*.scss eol=crl

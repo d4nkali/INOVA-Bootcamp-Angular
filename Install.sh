@@ -11,3 +11,11 @@ npm i @angular/cli@16.1.0
 
 ng add @angular/material
 ng generate module shared/material
+
+# Instalar Mascara
+
+npm install --save ngx-mask
+
+# Instalar SweatAlert
+
+npm install sweetalert2
