@@ -3,6 +3,7 @@
 *.pdf
 *.doc
 *.docx
+!docs/*
 
 # Compiled output
 /dist

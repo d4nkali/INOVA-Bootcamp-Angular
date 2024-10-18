@@ -1,6 +1,8 @@
 #  Bootcamp sobre Angular. 
 
-Bootcamp sobre Angular. 
+Bootcamp programação *Frontend* com **Angular**.
+
+Repositório original: [systembank2](https://github.com/Nicoly-Almeida/systembank2)
 
 ## SystemBank2
 
