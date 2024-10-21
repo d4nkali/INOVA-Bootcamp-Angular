@@ -1,21 +1,27 @@
 #!/bin/bash
 
-npm i @angular/cli@16.1.0
+# Script de instalação dos pacotes do repositorio
 
-# Caso não rode:
+#? Instalando o Angular
+
+npm i @angular/cli@16.1.0
+npm i
+
+#! Caso não rode:
+
 # npx -p @angular/cli
 # npm i @angular/cli@16.1.0
 # npm i
 
-# Instalar Angular Material
+#? Instalar o Angular Material
 
-ng add @angular/material
-ng generate module shared/material
+npm run ng add @angular/material
+npm run ng generate module shared/material
 
-# Instalar Mascara
+#? Instalar a Mascara
 
 npm install --save ngx-mask
 
-# Instalar SweatAlert
+#? Instalar o SweatAlert 2
 
 npm install sweetalert2
